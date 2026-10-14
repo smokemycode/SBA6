@@ -19,7 +19,7 @@ export function calculateTax(
         }
     
     // Pick the right tax rate based on the category
-    let taxRate: DEFAULT_TAX_RATE;
+    let taxRate: number = DEFAULT_TAX_RATE;
 
     if (category.toLowerCase() === "groceries") {
         taxRate = GROCERY_TAX_RATE;
