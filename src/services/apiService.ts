@@ -2,6 +2,7 @@
 
 import { Product } from '../models/Product';
 import { ApiError, NotFoundError } from '../utils/errorHandler';
+import fetch from "node-fetch";
 
 const BASE_URL = 'https://dummyjson.com/products';
 
